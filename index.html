@@ -1,0 +1,24 @@
+
+<html>
+  <head>
+    <title>Deliver Dynamic Conten</title>
+  </head>
+  <body>
+    <h1>Amazon CloudFront- CDN</h1>
+	<P>Deliver both static and dynamic content</P>
+    <h2>Static</h2>
+    <P><img src="pikachu.jpg" alt="Pikachu"><br>
+    <h2>Dynamic</h2>
+	<P> 
+<form name="frm" method="post"	action='dynamic/test.php'>
+Name:<br />
+<input type="text" name="name" /><p>
+Gender:<br />
+<input type="radio" name="gender" />Male <input type="radio" name="gioitinh" /> Female<p>	
+<input type="submit" name="submit_name" value="Send" />
+</form>
+    <P>
+	<iframe src='dynamic/test.php' 
+	></iframe></P>
+	 </body>
+</html>
